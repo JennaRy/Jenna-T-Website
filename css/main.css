@@ -1,0 +1,156 @@
+/***** BASE STYLES *****/
+body {
+    background-color: #1f202b;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 75px;
+}
+
+h2, nav {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    padding: 25px 35px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 45px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+/***** MAIN *****/
+.main {
+    background-image: url("../img/hero-background.png");
+    background-size: cover;
+    height: 730px;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+h1 span {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+}
+
+.left {
+    padding-left: 100px;
+    width: 650px;
+}
+
+/***** TOP *****/
+
+#portfolio h3,#about h3,#contact h3 {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+/***** PORTFOLIO *****/
+#portfolio {
+    height: 1450px;
+}
+
+#portfolio .full-width {
+    margin: 0 100px;
+}
+
+#portfolio .row-1, #portfolio .row-2, #portfolio .row-3 {
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+#portfolio .column {
+    float: left;
+    width: 600px;
+}
+
+.right {
+    padding-right: 50px;
+    text-align: right;
+}
+
+/***** ABOUT *****/
+#about {
+    background: url('../img/about-me.png');
+    background-size: cover;
+    height: 550px;
+}
+
+#about .full-width {
+    clear: both;
+    padding-top: 100px;
+}
+
+#about p {
+    color: #20202c;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+/***** CONTACT *****/
+#contact {
+    height: 400px;
+    font-size: 24px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#contact .third-width {
+    padding-bottom: 100px;
+}
+
+#contact div ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/***** FOOTER *****/
+footer {
+    clear: both;
+    font-size: 18px;
+    height: 45px;
+    text-align: center;
+}
